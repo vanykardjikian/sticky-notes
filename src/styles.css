@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background-color: rgb(12,16,25);
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    padding: 24px;
+    gap: 24px;
+    justify-content: space-evenly;
+}
+
+.note {
+    height: 250px;
+    box-sizing: border-box;
+    padding: 16px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(243, 254, 162);
+    resize: none;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.add-note {
+    height: 250px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    font-size: 120px;
+    color: rgba(255, 255, 255, 0.5);
+    transition: background 0.2s;
+}
+
+.add-note:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.clear {
+    height: 250px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background-color: rgba(254, 110, 117, 0.5);
+    cursor: pointer;
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.5);
+    transition: background 0.2s;
+}
+
+.clear:hover {
+    background-color: rgba(254, 110, 117, 0.6);
+}
