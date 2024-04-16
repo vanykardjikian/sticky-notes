@@ -1,4 +1,4 @@
-Live preview: https://vee1807.github.io/sticky-notes/
+Live preview: https://vanykardjikian.github.io/sticky-notes/
 <br>
 
 __<h2>Description:</h2>__
